@@ -1,0 +1,33 @@
+{
+  "_schoolName": "STEP",
+  "_adress": "Tolstogo 10",
+  "_classes": [
+    {
+      "_number": 9,
+      "_pupils": [
+        { "_name": "Ivan" },
+        { "_name": "Petro" },
+        { "_name": "Pavlo" },
+        { "_name": "Igor" }
+      ]
+    },
+    {
+      "_number": 8,
+      "_pupils": [
+        { "_name": "Ivan" },
+        { "_name": "Petro" },
+        { "_name": "Pavlo" },
+        { "_name": "Igor" }
+      ]
+    },
+    {
+      "_number": 7,
+      "_pupils": [
+        { "_name": "Ivan" },
+        { "_name": "Petro" },
+        { "_name": "Pavlo" },
+        { "_name": "Igor" }
+      ]
+    }
+  ]
+}

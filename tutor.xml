@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<school adress = "lalala 12" name  ="STEP">
+  <class N ="1">
+    <pupil>Petya</pupil>
+    <pupil>Ivan</pupil>
+    <pupil>Zhenya</pupil>
+  </class>
+  <class N ="2">
+    <pupil>John</pupil>
+    <pupil>Alex</pupil>
+    <pupil>Miron</pupil>
+    <pupil>Andy</pupil>
+  </class>
+  <class N ="3">
+    <pupil>Poo</pupil>
+    <pupil>Vinny</pupil>
+    <pupil>Crocs</pupil>
+    <pupil>Greg</pupil>
+  </class>
+</school>
