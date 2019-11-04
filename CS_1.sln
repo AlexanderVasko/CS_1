@@ -37,7 +37,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyStream", "MyStream\MyStre
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Streams", "Streams\Streams.csproj", "{AA878424-3696-403F-BC65-8C5629AAAB37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationXMLJSON", "SerializationXMLJSON\SerializationXMLJSON.csproj", "{3D3C16D0-8FC9-4EBE-858D-359250BD9092}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerializationXMLJSON", "SerializationXMLJSON\SerializationXMLJSON.csproj", "{3D3C16D0-8FC9-4EBE-858D-359250BD9092}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

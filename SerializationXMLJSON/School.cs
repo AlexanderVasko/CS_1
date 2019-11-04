@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace SerializationXMLJSON
 {
-    class School
-    {
+
+    public class School
+    { 
+        public int _var;
         public string _schoolName { get; set; }
         public string _adress { get; set; }
         public List<Classes> _classes { get; set; }

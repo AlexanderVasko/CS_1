@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Text;
 using System.Text.Json;
-using System.Xml;
+//using System.Xml.Serialization;
 
 namespace SerializationXMLJSON
 {
@@ -79,12 +80,17 @@ namespace SerializationXMLJSON
             step._classes.Add(aClass);
             step._classes.Add(bClass);
 
-            var result = JsonSerializer.Serialize(step);
+            var serializedJSON = JsonSerializer.Serialize(step);
+            var deserializedJSON = JsonSerializer.Deserialize<School>(serializedJSON);
 
-            var memStream = new MemoryStream(10000);
-            
+            //var memStream = new MemoryStream(10000);
 
-            var deserialized = JsonSerializer.Deserialize<School>(result);
+            //var serializedXML = new XmlSerializer(typeof(School));
+
+            //serializedXML.Serialize(memStream, step);
+
+            //var byteArray = memStream.ToArray();
+            //Console.WriteLine(Encoding.UTF8.GetString(byteArray));
         }
     }
 }

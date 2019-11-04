@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SerializationXMLJSON
+﻿namespace SerializationXMLJSON
 {
-    class Pupil
+    public class Pupil
     {
         public string _name { get; set; }
     }
