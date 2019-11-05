@@ -39,6 +39,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Streams", "Streams\Streams.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerializationXMLJSON", "SerializationXMLJSON\SerializationXMLJSON.csproj", "{3D3C16D0-8FC9-4EBE-858D-359250BD9092}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentList", "StudentList\StudentList.csproj", "{4BE86982-E1B9-46C7-8977-BA170BACDF91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{3D3C16D0-8FC9-4EBE-858D-359250BD9092}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D3C16D0-8FC9-4EBE-858D-359250BD9092}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D3C16D0-8FC9-4EBE-858D-359250BD9092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BE86982-E1B9-46C7-8977-BA170BACDF91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE86982-E1B9-46C7-8977-BA170BACDF91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE86982-E1B9-46C7-8977-BA170BACDF91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE86982-E1B9-46C7-8977-BA170BACDF91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
