@@ -8,7 +8,7 @@ using System.Text.Json;
 namespace SerializationXMLJSON
 {
     class Program
-    {
+    {        
         static void Main(string[] args)
         {
             //var step = new School

@@ -4,7 +4,7 @@ using System.IO;
 using System.Text.Json;
 using System.Linq;
 
-namespace StudentList
+namespace LINQ
 {
     class Program
     {
@@ -97,8 +97,6 @@ namespace StudentList
             //{
             //    Console.WriteLine(iter);
             //}
-
-
 
             serializedList = JsonSerializer.Serialize<StudentList>(studList);
 
